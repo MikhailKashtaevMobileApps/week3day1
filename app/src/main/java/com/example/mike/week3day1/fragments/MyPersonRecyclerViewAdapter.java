@@ -7,14 +7,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.mike.week3day1.R;
-import com.example.mike.week3day1.fragments.PersonFragment.OnListFragmentInteractionListener;
 import com.example.mike.week3day1.model.Person;
 
 import java.util.List;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link Person} and makes a call to the
- * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class MyPersonRecyclerViewAdapter extends RecyclerView.Adapter<MyPersonRecyclerViewAdapter.ViewHolder> {
