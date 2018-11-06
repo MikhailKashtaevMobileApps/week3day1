@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.mike.week3day1.views.DialogFragmentActivity;
 import com.example.mike.week3day1.views.ListFragmentActivity;
+import com.example.mike.week3day1.views.PreferencesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void goPreferences(View view) {
-
+        Intent intent = new Intent( getApplicationContext(), PreferencesActivity.class);
+        startActivity( intent );
     }
 
     public void goListFragment(View view) {
